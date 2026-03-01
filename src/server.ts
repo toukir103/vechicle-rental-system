@@ -14,7 +14,7 @@ const main = async () => {
   await createTables();
 };
 
-// ✅ Call the main function
+// Call the main function
 main().catch((err) => {
   console.error("Error in startup:", err);
 });
